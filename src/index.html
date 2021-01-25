@@ -8,23 +8,76 @@
 </head>
 <body>
 
-    <header>
+    <header class="section-header">
         <h1>Quiz-App</h1>
     </header>
 
-    <main>
-        <section id="quiz" class="section-quiz"></section>
-        <section id="bookmarks" class="section-bookmarks"></section>
-        <section id="create" class="section-create"></section>
-        <section id="profile" class="section-profile"></section>
+    <main class="section-main">
+        <section class="section-question">
+            <article class="section-question__article"> <!-- Question 1 -->
+                <header>
+                    <img src="fa_icons/bookmark-regular.svg" class="section-question__bookmark-icon grow" alt="" height="50">
+                    <h2>Question:</h2>
+                </header>
+                <main>
+                    <p class="section-question__question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, reiciendis.</p>
+                <button class="section-question__btn">Show Answer</button>
+                <p class="section-question__answer"><span class="bold">Answer:</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, iusto?</p>
+                </main>
+                <footer class="section-question__tag-container">
+                    <div class="section-question__tag">Testerer</div>
+                    <div class="section-question__tag">Test</div>
+                    <div class="section-question__tag">Test</div>
+                    <div class="section-question__tag">Test</div>
+                    <div class="section-question__tag">Test</div>
+                    <div class="section-question__tag">Test</div>
+                    <div class="section-question__tag">Test</div>
+                    <div class="section-question__tag">Test</div>
+                    <div class="section-question__tag">Test</div>
+                </footer> 
+            </article> 
+            <article class="section-question__article"> <!-- Question 2 -->
+                <header>
+                    <img src="fa_icons/bookmark-regular.svg" class="section-question__bookmark-icon grow" alt="" height="50">
+                    <h2>Question:</h2>
+                </header>
+                <main>
+                    <p class="section-question__question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, reiciendis.</p>
+                <button class="section-question__btn">Show Answer</button>
+                <p class="section-question__answer"><span class="bold">Answer:</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, iusto?</p>
+                </main>
+                <footer class="section-question__tag-container">
+                    <div class="section-question__tag">Testerer</div>
+                    <div class="section-question__tag">bla</div>
+                    <div class="section-question__tag">Test</div>
+                </footer> 
+            </article>
+            <article class="section-question__article"> <!-- Question 3 -->
+                <header>
+                    <img src="fa_icons/bookmark-regular.svg" class="section-question__bookmark-icon grow" alt="" height="50">
+                    <h2>Question:</h2>
+                </header>
+                <main>
+                    <p class="section-question__question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, reiciendis.</p>
+                <button class="section-question__btn">Show Answer</button>
+                <p class="section-question__answer"><span class="bold">Answer:</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, iusto?</p>
+                </main>
+                <footer class="section-question__tag-container">
+                    <div class="section-question__tag">Testerer</div>
+                    <div class="section-question__tag">bla</div>
+                    <div class="section-question__tag">Test</div>
+                </footer> 
+            </article>
+        </section>
     </main>
 
-    <footer>
-        <nav class="footer-nav">
-            <a href="#quiz"><span class="fas fa-home">Test</span></a>
-            <a href="#bookmarks"><img src="" alt=""></a>
-            <a href="#create"><img src="" alt=""></a>
-            <a href="#profile"><img src="" alt=""></a>
+    <!-- PRoblem: Verdeckt Inhalt -->
+    <footer class="section-footer">
+        <nav class="section-footer__nav">
+            <a href="/index.html" class="section-footer__active-page"><img src="fa_icons/home-solid.svg" alt="" height="50"></a>
+            <a href="/bookmarks.html"><img src="fa_icons/bookmark-regular.svg" alt="" height="50" class="grow"></a>
+            <a href="/create.html"><img src="fa_icons/pencil-alt-solid.svg" alt="" height="50" class="grow"></a>
+            <a href="/profile.html"><img src="fa_icons/user-alt-solid.svg" alt="" height="50" class="grow"></a>
         </nav>
     </footer>
     
