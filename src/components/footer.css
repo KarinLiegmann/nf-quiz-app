@@ -1,0 +1,21 @@
+.footer {
+    background-color: cadetblue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;     
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0 .5rem;
+}
+
+.nav__icon {
+    padding: 1px;
+}
+    
+.nav__icon--active {
+    border-bottom: 8px double black;
+}

@@ -1,75 +1,13 @@
-@import ".base.css";
-@import ".utility.css";
+@import "./base.css";
+@import "./utility.css";
 
-@import "./components/cards";
-
-body {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
-    margin-bottom: auto;
-    font-family: 'Radley', serif;
-    text-align: center;
-}
-
-h1, h2, h3 {
-    text-transform: uppercase;
-}
-    
+@import "./components/*.css";
 
 
-.bold {
-    font-weight: bold;
-}
 
 
-.grow:hover {
-    transform: scale(1.2);
-    transition: all .2s ease-in-out;
-    cursor: pointer;
-}
 
-/* Bookmark-Styling */
-
-.section-question__article::after {
-    content: url(fa_icons/bookmark-regular.svg);
-    display: inline-block;
-    height: 37px;
-    width: 50px; 
-}
-
-/* end Bookmark-Styling */    
-
-.header {
-    background-color: cadetblue;
-    text-align: center;
-    padding: .8rem 0; 
-}
-
-.main {
-    margin-bottom: 25%;
-    /* -> otherwise footer would hide content of last question-container */
-}
-
-.footer {
-    background-color: cadetblue;
-    position: fixed;
-    bottom: 0;
-    width: 100%;     
-}
-
-.footer__nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 1rem 0 .5rem;
-}
-
-.nav__icon--active {
-    border-bottom: 8px double black;
-    padding: 1px;
-    /* doppelter bottom-border geringelt oder bild?*/
-}
+ 
 
 
 
@@ -77,43 +15,15 @@ h1, h2, h3 {
 
 
 
-/* Styling Question-Seite */ 
 
-.card__header {
-    margin: 2rem 1rem;
-    padding: .5rem;
-    border: 2px solid black;
-    border-radius: 10%;
-}
 
-.card__bookmark-icon {
-    position: relative;
-    top: -20px;
-    left: 110px;
-    background-color: white;
-}
 
-.card__btn {
-    font-size: 1.5rem;
-    padding: .5rem 2rem;
-    box-shadow: .1rem .2rem 0.1rem lightgray;
-}
 
-.card__footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
-.card__footer div {
-    border: 1px solid darkgray;
-    border-radius: 10%;
-    background-color: cadetblue;
-    margin: .5rem .3rem;
-    padding: .1rem .8rem;
-    box-shadow: .1rem .2rem 0.1rem lightgray; 
-    font-weight: bold;
-}
+
+
+
+
 
 
     

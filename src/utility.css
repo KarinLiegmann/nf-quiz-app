@@ -1,0 +1,29 @@
+.bs {
+    box-shadow: .1rem .2rem 0.1rem lightgray;
+}
+
+.cs-p {
+    cursor: pointer;
+}
+
+.fw-b {
+    font-weight: bold;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.ta-l {
+    text-align: left;
+}
+
+.trfrm:focus, .trfrm:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+} /* doesn't work */
+
+.tt-uc {
+    text-transform: uppercase;
+}
+

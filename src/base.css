@@ -1,7 +1,5 @@
 :root {
-    --clr-dark: black;
-    --clr-light: white;
-    
+    --clr-accent: cadetblue;
     --ff-sans: 'Radley', serif;
 }
 
@@ -20,6 +18,20 @@ p {
 }
 
 body {
-    font-size: 1.25rem;
+    display: grid;
+    font-family: var(--ff-sans);
+    font-size: 1.2rem;
+    grid-template-rows: auto 1fr auto;
     line-height: 1.5;
+    margin-bottom: auto;
+    min-height: 100vh;
+    text-align: center;    
 }
+
+.main {
+    margin-bottom: 25%;
+    /* -> otherwise footer would hide content of last question-container */
+}
+
+
+
