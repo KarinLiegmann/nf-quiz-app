@@ -9,6 +9,17 @@
     box-sizing: border-box;
 }
 
+body {
+    display: grid;
+    font-family: var(--ff-sans);
+    font-size: 1.2rem;
+    grid-template-rows: auto 1fr auto;
+    line-height: 1.5;
+    margin-bottom: auto;
+    min-height: 100vh;
+    text-align: center;    
+}
+
 body,
 h1,
 h2,
@@ -25,16 +36,9 @@ h2 {
     font-size: 1.1rem;
 }
 
-body {
-    display: grid;
-    font-family: var(--ff-sans);
-    font-size: 1.2rem;
-    grid-template-rows: auto 1fr auto;
-    line-height: 1.5;
-    margin-bottom: auto;
-    min-height: 100vh;
-    text-align: center;    
-}
+
+
+
 
 .main {
     margin-bottom: 25%;
