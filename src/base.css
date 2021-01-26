@@ -1,0 +1,25 @@
+:root {
+    --clr-dark: black;
+    --clr-light: white;
+    
+    --ff-sans: 'Radley', serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+body {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
