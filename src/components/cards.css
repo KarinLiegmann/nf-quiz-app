@@ -5,25 +5,25 @@
     border-radius: 10%;
 }
 
-/* 
-.card::after {
+
+.card__main::before {
     content: url(../fa_icons/bookmark-regular.svg);
     display: inline-block;
-    position: absolute;
+    position: relative;
     height: 37px;
     width: 40px;
-    left: 295px;
-    top: 105px;
-    background-color: white; 
+    right: -10px;
+    top: 100px;
+    background-color: red; 
 }
-*/
 
-.card__bookmark-icon {
+
+/* .card__bookmark-icon {
     position: relative;
     top: -20px;
     left: 110px;
     background-color: white;
-}
+} */
 
 .card__tag-container {
     display: flex;
