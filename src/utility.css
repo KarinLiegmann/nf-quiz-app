@@ -23,10 +23,6 @@
     text-align: left;
 }
 
-.trfrm:focus, .trfrm:hover {
-    transform: scale(1.2);
-    transition: all .2s ease-in-out;
-} /* doesn't work */
 
 .tt-uc {
     text-transform: uppercase;

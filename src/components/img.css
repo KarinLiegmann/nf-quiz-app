@@ -1,4 +1,7 @@
 .profile__img {
     border-radius: 50%;
-    filter: drop-shadow(6px 7px 1px lightgray);
+    filter: drop-shadow(6px 7px 1px var(--clr-accent));
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    z-index: 100;
 }

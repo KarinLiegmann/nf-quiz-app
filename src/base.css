@@ -1,6 +1,12 @@
 :root {
     --clr-accent: cadetblue;
     --ff-sans: 'Radley', serif;
+
+
+    --clr-bg: #FCAB7B;
+    --clr-accent: #88CDF5;
+    --clr-dark: #000;
+    --clr-light: #fff;
 }
 
 *,
@@ -17,6 +23,7 @@ body {
     line-height: 1.5;
     margin-bottom: auto;
     min-height: 100vh;
+    background: var(--clr-bg);
 }
 
 body,
@@ -36,14 +43,18 @@ h2 {
     margin-bottom: .5rem;
 }
 
+label {
+    font-size: 0.8em;
+}
+
 p {
     margin-bottom: 1.5rem;
     margin-left: .7rem;
 }
 
 span {
-    font-size: 2.5rem;
-    color: white;
+    font-size: 2.6rem;
+    color: var(--clr-dark);
 }
 
 .main {

@@ -2,7 +2,7 @@
     position: relative;
     margin: 2rem 1rem;
     padding: 1rem;
-    border: 2px solid black;
+    border: 1px solid var(--clr-light);
     border-radius: 10%;
 }
 

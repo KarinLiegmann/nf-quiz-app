@@ -7,10 +7,21 @@
 } 
 
 .btn {
+    color: var(--clr-light);
+    background: var(--clr-dark);
     font-size: 1.2rem;
     text-transform: uppercase;
     margin: 0rem 1rem 1.8rem;
     padding: .5rem 2rem;
-    box-shadow: .1rem .2rem 0.1rem lightgray;
+    border-radius: 4px;
+    transition: 10ms ease-out;
+}
+
+.btn:hover,
+.btn:active {
+    transition: 10ms ease-in-out;
+    background: var(--clr-light);
+    color: var(--clr-dark);
+
 }
 
