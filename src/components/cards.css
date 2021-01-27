@@ -14,7 +14,7 @@
     width: 40px;
     right: 1rem;
     top: -.8rem;
-    background-color: white; 
+    background: var(--clr-bg);
 }
 
 .card__main--bookmarked::before {
