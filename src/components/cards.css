@@ -1,23 +1,19 @@
 .card {
+    position: relative;
     margin: 2rem 1rem;
     padding: 1rem;
     border: 2px solid black;
     border-radius: 10%;
 }
 
-.card__main {
-    margin: 0 auto;
-}
-
-
 .card__main::before {
     content: url(../fa_icons/bookmark-regular.svg);
     display: inline-block;
-    position: relative;
+    position: absolute;
     height: 37px;
     width: 40px;
-    left: 40%;
-    top: -25px;
+    right: 1rem;
+    top: -.8rem;
     background-color: white; 
 }
 
@@ -26,25 +22,3 @@
 }
 
 
-/* .card__bookmark-icon {
-    position: relative;
-    top: -20px;
-    left: 110px;
-    background-color: white;
-} */
-
-.card__tag-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card__tag-container div {
-    border: 1px solid darkgray;
-    border-radius: 10%;
-    background-color: cadetblue;
-    margin: .5rem .3rem;
-    padding: .1rem .8rem;
-    box-shadow: .1rem .2rem 0.1rem lightgray;
-    font-weight: bold;
-}

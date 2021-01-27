@@ -17,7 +17,6 @@ body {
     line-height: 1.5;
     margin-bottom: auto;
     min-height: 100vh;
-    /* text-align: center; */
 }
 
 body,
@@ -42,16 +41,23 @@ p {
     margin-left: .7rem;
 }
 
-
-
-
-
-
+span {
+    font-size: 2.5rem;
+    color: white;
+}
 
 .main {
     margin-bottom: 25%;
-    /* -> otherwise footer would hide content of last question-container */
 }
+
+
+
+
+
+
+
+
+
 
 
 
