@@ -1,8 +1,12 @@
 .card {
     margin: 2rem 1rem;
-    padding: .5rem;
+    padding: 1rem;
     border: 2px solid black;
     border-radius: 10%;
+}
+
+.card__main {
+    margin: 0 auto;
 }
 
 
@@ -13,7 +17,7 @@
     height: 37px;
     width: 40px;
     left: 40%;
-    top: -20px;
+    top: -25px;
     background-color: white; 
 }
 
