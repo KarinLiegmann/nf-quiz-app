@@ -6,19 +6,27 @@
     border-radius: 10%;
 }
 
-.card__main::before {
-    content: url(../fa_icons/bookmark-regular.svg);
-    display: inline-block;
+.card__bookmark {
     position: absolute;
-    height: 37px;
-    width: 40px;
-    right: 1rem;
-    top: -.8rem;
+    font-size: 2.5rem;
+    top: -.4rem;
+    right: 0.9rem;
     background: var(--clr-bg);
+    transform: scale(1);
+    transition: 20ms ease-in-out;
 }
 
-.card__main--bookmarked::before {
-    content: url(../fa_icons/bookmark-solid.svg);
+.card__bookmark:hover,
+.card__bookmark:active {
+    transform: scale(1.2);
 }
+
+.card__bookmark--active:hover,
+.card__bookmark--active:active {
+    transform: scale(1.2);
+}
+
+
+
 
 
