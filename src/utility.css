@@ -2,11 +2,6 @@
     box-shadow: .1rem .2rem 0.1rem lightgray;
 }
 
-/* .bs-b {
-    box-shadow: .1rem .2rem 0.1rem lightgray;
-} */ 
-/* create bigger box-shadow for cards */
-
 .cs-p {
     cursor: pointer;
 }
@@ -22,7 +17,6 @@
 .ta-l {
     text-align: left;
 }
-
 
 .tt-uc {
     text-transform: uppercase;
