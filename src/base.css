@@ -24,6 +24,10 @@ body {
     background: var(--clr-bg);
 }
 
+main {
+    margin-bottom: 25%;
+}
+
 body,
 h1,
 h2,
@@ -50,14 +54,12 @@ p {
     margin-left: .7rem;
 }
 
-span {
+.nav__icon {
     font-size: 2.6rem;
     color: var(--clr-dark);
 }
 
-.main {
-    margin-bottom: 25%;
-}
+
 
 
 

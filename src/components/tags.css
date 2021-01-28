@@ -5,7 +5,7 @@
     position: relative;
 }
 
-.tag__container div {
+.tag__container li {
     color: var(--clr-dark);
     background: var(--clr-light);
     font-size: 1.1rem;
@@ -17,7 +17,7 @@
     position: relative;
 }
 
-.tag__container div::before {
+.tag__container li::before {
     content: '# ';
     font-size: 3.5rem;
     position: absolute;

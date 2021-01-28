@@ -19,5 +19,5 @@
 }
     
 .nav__icon--active {
-    border-bottom: 8px double black;
+    border-bottom: 8px double var(--clr-dark);
 }
