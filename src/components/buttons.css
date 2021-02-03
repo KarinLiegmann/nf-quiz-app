@@ -15,8 +15,7 @@
     transition: 20ms ease-in-out;
 }
 
-.btn:hover,
-.btn:active {
+.clicked {
     background: var(--clr-light);
     color: var(--clr-dark); 
 }

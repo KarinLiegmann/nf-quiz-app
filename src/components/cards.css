@@ -12,18 +12,6 @@
     top: -.4rem;
     right: 0.9rem;
     background: var(--clr-bg);
-    transform: scale(1);
-    transition: 20ms ease-in-out;
-}
-
-.card__bookmark:hover,
-.card__bookmark:active {
-    transform: scale(1.2);
-}
-
-.card__bookmark--active:hover,
-.card__bookmark--active:active {
-    transform: scale(1.2);
 }
 
 
