@@ -1,26 +1,10 @@
-const buttons = document.querySelectorAll('.card__button')
+import { toggleAnswer } from './toggleanswer'
+import { toggleBookmark } from './bookmarks'
 
-buttons.forEach((myButton) => {
-    myButton.addEventListener('click', () => {
-        myButton.classList.toggle('clicked');
+toggleElement('.card__button', toggleAnswer)
+toggleElement('.card__bookmark', toggleBookmark)
 
-        const answer = myButton.parentNode.parentNode.querySelector('.card__answer');
-        answer.classList.toggle('hidden');
-
-        myButton.innerText = answer.classList.contains('hidden') ? "SHOW ANSWER" : "HIDE ANSWER";
-
-    }
-    )
+function toggleElement(selector, toggleFunction) {
+    const elements = document.querySelectorAll(selector);
+    elements.forEach(toggleFunction)
 }
-)
-
-const bookmarks = document.querySelectorAll('.card__bookmark');
-
-bookmarks.forEach((myBookmark) => {
-    myBookmark.addEventListener('click', () => {
-        myBookmark.classList.toggle('fas')
-        myBookmark.classList.toggle('far')
-    })
-})
-
-
