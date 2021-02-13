@@ -18,6 +18,6 @@
     padding: 1px;
 }
     
-.nav__icon--active {
+.active {
     border-bottom: 8px double var(--clr-dark);
-}
+} 

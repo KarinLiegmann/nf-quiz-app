@@ -1,7 +1,7 @@
 @import "./base.css";
 @import "./utility.css";
 
-@import "./components/*.css";
+@import "../components/*.css";
 
 
 
