@@ -1,15 +1,5 @@
 
 import { createElement } from '../../lib/createElement'
-import { toggleAnswer } from './toggleanswer'
-import { toggleBookmark } from './togglebookmarks'
-
-function toggleElement(selector, toggleFunction) {
-    const elements = document.querySelectorAll(selector);
-    elements.forEach(toggleFunction)
-
-    toggleElement('.card__button', toggleAnswer)
-    toggleElement('.card__bookmark', toggleBookmark)
-}
 
 
 
@@ -42,3 +32,4 @@ export function renderCard(question, answer) {
     <li>Test</li>`
     cardContent.appendChild(cardTags)
 }
+
