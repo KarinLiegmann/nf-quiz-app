@@ -1,6 +1,4 @@
-
 import { createElement } from '../../lib/createElement'
-
 
 
 const cardContainer = document.querySelector('.card__container')
