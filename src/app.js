@@ -1,9 +1,9 @@
 import { createElement } from './lib/createElement'
 
-import { renderCard } from './components/cards'
+import { renderCard } from './components/Cards/cards'
 
-import { createCardButton } from './components/cardButton'
-import { createCardQuestion, renderQuestion } from './components/cardQuestion'
+
+
 
 
 

@@ -1,6 +1,7 @@
 
+import { createElement } from '../../lib/createElement'
 import { toggleAnswer } from './toggleanswer'
-import { toggleBookmark } from './bookmarks'
+import { toggleBookmark } from './togglebookmarks'
 
 function toggleElement(selector, toggleFunction) {
     const elements = document.querySelectorAll(selector);
@@ -10,7 +11,7 @@ function toggleElement(selector, toggleFunction) {
     toggleElement('.card__bookmark', toggleBookmark)
 }
 
-import { createElement } from '../lib/createElement'
+
 
 const cardContainer = document.querySelector('.card__container')
 

@@ -6,7 +6,3 @@ export function toggleBookmark(myBookmark) {
     }
     )
 }
-
-
-
-
