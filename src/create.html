@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <script src="https://kit.fontawesome.com/fc9d89eaa3.js" crossorigin="anonymous"></script>
     <script src="./app.js" defer></script>
+    <script src="./components/Create/form.js" defer></script>
     <title>Quizz App</title>
 </head>
 
@@ -20,19 +21,19 @@
         <form>
             <fieldset class="card">
                 <legend class="form__title fw-b tt-uc">Create your own card</legend>
-                <div class="form">
+                <div class="form__question">
                     <!-- question -->
                     <label for="form__textarea-question" class="form__label tt-uc fw-b">Question:</label><br>
                     <textarea name="form__textarea-question" id="form__textarea-question" class="form__textarea"
                         rows="10" placeholder="Please type in your question."></textarea>
                 </div>
-                <div class="form">
+                <div class="form__answer">
                     <!-- answer -->
                     <label for="form__textarea-answer" class="form__label tt-uc fw-b">Answer:</label><br>
                     <textarea name="form__textarea-answer" id="form__textarea-answer" class="form__textarea" rows="10"
                         placeholder="Please type in your answer."></textarea>
                 </div>
-                <div class="form">
+                <div class="form__tags">
                     <!-- tags -->
                     <label for="form__textarea-tags" class="form__label tt-uc fw-b">Tags:</label><br>
                     <textarea name="form__textarea-tags" id="form__textarea-tags" class="form__textarea" rows="4"
@@ -41,7 +42,8 @@
             </fieldset>
 
             <div class="btn__container">
-                <button type="submit" class="btn">Submit</button>
+                <button type="reset" class="cancel__button btn">Cancel</button>
+                <button type="submit" class="form__button btn">Submit</button>
             </div>
         </form>
     </main>

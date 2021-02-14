@@ -4,9 +4,6 @@ import { toggleAnswer } from './components/Cards/toggleanswer'
 import { toggleBookmark } from './components/Cards/togglebookmarks'
 
 
-
-
-
 let cardList = []
 
 fetch('https://muc-2020-w1-student-api.vercel.app/api/journals')
@@ -16,6 +13,7 @@ fetch('https://muc-2020-w1-student-api.vercel.app/api/journals')
     })
     .catch(error => console.error(error.message))
 
+
 function addEntrytoCardList(entry) {
     cardList.push(entry)
 
@@ -24,5 +22,6 @@ function addEntrytoCardList(entry) {
     toggleElement('.card__bookmark', toggleBookmark)
 }
 
-
-
+// todo: tags-array
+// rendercard: api vs localStorage
+// clickevents auf 2ter karte funktionieren nicht
